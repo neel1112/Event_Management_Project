@@ -286,6 +286,6 @@ Before you begin, ensure you have installed the following:
 
 
 <div align="center">
-  <p>Made with ❤️ using the MERN stack</p>
+  <p>Made with ❤️ by Neel Patel.</p>
   <p>© 2023 Event Management System. All rights reserved.</p>
 </div>
