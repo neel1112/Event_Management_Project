@@ -285,7 +285,3 @@ Before you begin, ensure you have installed the following:
 | `DELETE` | `/api/users/:id` | Delete user | Admin |
 
 
-<div align="center">
-  <p>Made with ❤️ by Neel Patel.</p>
- 
-</div>
