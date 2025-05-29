@@ -1,152 +1,96 @@
+# 🎉 Event Management System 🎭
+
+> A full-stack web application for managing events with a beautiful and intuitive interface
+
 <div align="center">
-  <h1 style="background: linear-gradient(45deg, #6c5ce7, #a29bfe); color: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-    🎉 Event Management System 🎭
-  </h1>
-  <p style="font-size: 1.2em; color: #2d3436; margin: 15px 0 25px;">A full-stack web application for managing events with a beautiful and intuitive interface</p>
-  
-  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 20px 0;">
-    <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&style=for-the-badge" alt="React">
-    <img src="https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js&style=for-the-badge" alt="Node.js">
-    <img src="https://img.shields.io/badge/Express-4.18.2-000000?logo=express&style=for-the-badge" alt="Express">
-    <img src="https://img.shields.io/badge/MongoDB-8.0.3-47A248?logo=mongodb&style=for-the-badge" alt="MongoDB">
-  </div>
-  
-  <div style="margin: 25px 0; padding: 15px; background: #f8f9fa; border-radius: 10px; border-left: 5px solid #6c5ce7;">
-    <p>✨ <strong>Featured:</strong> Modern UI/UX • Real-time Updates • Secure Authentication • Admin Dashboard</p>
-  </div>
+
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&style=for-the-badge)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js&style=for-the-badge)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4.18.2-000000?logo=express&style=for-the-badge)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-8.0.3-47A248?logo=mongodb&style=for-the-badge)](https://www.mongodb.com/)
+
+✨ **Featured:** Modern UI/UX • Real-time Updates • Secure Authentication • Admin Dashboard
+
 </div>
 
-<div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 25px; border-radius: 15px; margin: 25px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <h2 style="color: #2d3436; border-bottom: 2px solid #6c5ce7; padding-bottom: 10px; display: inline-block;">✨ Key Features</h2>
-  
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
-    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-      <h3 style="color: #6c5ce7;">🔐 User Authentication</h3>
-      <p>Secure login and registration system with JWT authentication and password hashing</p>
-    </div>
-    
-    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-      <h3 style="color: #6c5ce7;">📅 Event Management</h3>
-      <p>Complete CRUD operations for events with image uploads and rich text editing</p>
-    </div>
-    
-    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-      <h3 style="color: #6c5ce7;">👑 Admin Dashboard</h3>
-      <p>Comprehensive admin panel for managing users, events, and categories</p>
-    </div>
-    
-    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-      <h3 style="color: #6c5ce7;">📱 Responsive Design</h3>
-      <p>Fully responsive layout that works seamlessly on all devices</p>
-    </div>
-    
-    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-      <h3 style="color: #6c5ce7;">🖼️ Image Upload</h3>
-      <p>Cloudinary integration for easy image uploads and management</p>
-    </div>
-    
-    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-      <h3 style="color: #6c5ce7;">⚡ Real-time Updates</h3>
-      <p>Dynamic content loading without page refresh for better UX</p>
-    </div>
-  </div>
-</div>
+## ✨ Key Features
 
-<div style="margin: 30px 0; background: #ffffff; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="background: linear-gradient(45deg, #6c5ce7, #a29bfe); color: white; padding: 15px 25px;">
-    <h2 style="margin: 0; color: white;">🛠 Technology Stack</h2>
-  </div>
-  
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 25px;">
-    <!-- Frontend -->
-    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #61dafb;">
-      <h3 style="color: #2d3436; margin-top: 0; display: flex; align-items: center;">
-        <span style="background: #61dafb; color: white; width: 30px; height: 30px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 10px;">🖥️</span>
-        Frontend
-      </h3>
-      <table style="width: 100%; border-collapse: collapse;">
-        <tr>
-          <td style="padding: 8px 0; border-bottom: 1px solid #eee;">
-            <strong>React.js</strong>
-            <span style="float: right; background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 10px; font-size: 0.85em;">18.2.0</span>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 8px 0; border-bottom: 1px solid #eee;">
-            <strong>React Router</strong>
-            <span style="float: right; background: #e8f5e9; color: #2e7d32; padding: 2px 8px; border-radius: 10px; font-size: 0.85em;">6.21.0</span>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 8px 0; border-bottom: 1px solid #eee;">
-            <strong>Tailwind CSS</strong>
-            <span style="float: right; background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 10px; font-size: 0.85em;">3.3.7</span>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 8px 0;">
-            <strong>Axios</strong>
-            <span style="float: right; background: #e8f5e9; color: #2e7d32; padding: 2px 8px; border-radius: 10px; font-size: 0.85em;">1.6.2</span>
-          </td>
-        </tr>
-      </table>
-    </div>
-    
-    <!-- Backend -->
-    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #4caf50;">
-      <h3 style="color: #2d3436; margin-top: 0; display: flex; align-items: center;">
-        <span style="background: #4caf50; color: white; width: 30px; height: 30px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 10px;">⚙️</span>
-        Backend
-      </h3>
-      <table style="width: 100%; border-collapse: collapse;">
-        <tr>
-          <td style="padding: 8px 0; border-bottom: 1px solid #eee;">
-            <strong>Node.js</strong>
-            <span style="float: right; background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 10px; font-size: 0.85em;">18.x</span>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 8px 0; border-bottom: 1px solid #eee;">
-            <strong>Express.js</strong>
-            <span style="float: right; background: #e8f5e9; color: #2e7d32; padding: 2px 8px; border-radius: 10px; font-size: 0.85em;">4.18.2</span>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 8px 0; border-bottom: 1px solid #eee;">
-            <strong>MongoDB</strong>
-            <span style="float: right; background: #e8f5e9; color: #2e7d32; padding: 2px 8px; border-radius: 10px; font-size: 0.85em;">8.0.3</span>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 8px 0;">
-            <strong>JWT Auth</strong>
-            <span style="float: right; background: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 10px; font-size: 0.85em;">9.0.2</span>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </div>
-  
-  <div style="background: #f1f8ff; padding: 15px 25px; border-top: 1px solid #e1e4e8;">
-    <h4 style="margin: 0 0 10px 0; color: #2d3436;">Additional Technologies</h4>
-    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-      <span style="background: #e3f2fd; color: #1976d2; padding: 4px 12px; border-radius: 15px; font-size: 0.85em;">Cloudinary</span>
-      <span style="background: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 15px; font-size: 0.85em;">Bcrypt</span>
-      <span style="background: #f3e5f5; color: #6a1b9a; padding: 4px 12px; border-radius: 15px; font-size: 0.85em;">Multer</span>
-      <span style="background: #e0f7fa; color: #00838f; padding: 4px 12px; border-radius: 15px; font-size: 0.85em;">React Icons</span>
-      <span style="background: #fff3e0; color: #e65100; padding: 4px 12px; border-radius: 15px; font-size: 0.85em;">React Toastify</span>
-    </div>
-  </div>
-</div>
+| Feature | Description |
+|---------|-------------|
+| 🔐 **User Authentication** | Secure login and registration system with JWT and password hashing |
+| 📅 **Event Management** | Complete CRUD operations for events with image uploads |
+| 👑 **Admin Dashboard** | Comprehensive panel for managing users, events, and categories |
+| 📱 **Responsive Design** | Works seamlessly on all device sizes |
+| 🖼️ **Image Upload** | Cloudinary integration for media management |
+| ⚡ **Real-time Updates** | Dynamic content loading without page refresh |
+
+---
+
+## 🛠 Technology Stack
+
+### Frontend
+```
+- React.js 18.2.0
+- React Router 6.21.0
+- Tailwind CSS 3.3.7
+- Axios 1.6.2
+- React Icons
+- React Toastify
+```
+
+### Backend
+```
+- Node.js 18.x
+- Express.js 4.18.2
+- MongoDB 8.0.3
+- Mongoose ODM
+- JWT Authentication
+- Bcrypt
+- Multer
+- Cloudinary
+```
+
+### Additional Technologies
+```
+- Cloudinary (Image Storage)
+- Bcrypt (Password Hashing)
+- Multer (File Uploads)
+- React Icons
+- React Toastify (Notifications)
+```
+
+---
 - Twilio for notifications (optional)
 
-## 📋 Prerequisites
+## 🚀 Getting Started
+
+### 📋 Prerequisites
 
 Before you begin, ensure you have installed the following:
-- Node.js (v16 or later)
-- npm (v8 or later)
-- MongoDB (v6.0 or later)
-- Git
+
+- ![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js) (v16 or later)
+- ![npm](https://img.shields.io/badge/npm-8.x-CB3837?logo=npm) (v8 or later)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-47A248?logo=mongodb) (v6.0 or later)
+- ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+### 🛠 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/neel1112/Event_Management_Project.git
+   cd Event_Management_Project
+   ```
+
+2. **Install dependencies**
+   ```bash
+   # Install frontend dependencies
+   cd front
+   npm install
+   
+   # Install backend dependencies
+   cd ../back
+   npm install
+   ```
 
 ## 🚀 Installation
 
@@ -170,137 +114,203 @@ Before you begin, ensure you have installed the following:
 
 ## ⚙️ Configuration
 
-1. **Backend Environment Variables**
-   Create a `.env` file in the `back` directory with the following variables:
-   ```
+### Backend Setup
+
+1. Create a `.env` file in the `back` directory with the following variables:
+
+   ```env
+   # Server Configuration
    PORT=5000
+   NODE_ENV=development
+   
+   # MongoDB
    MONGODB_URI=your_mongodb_connection_string
+   
+   # JWT
    JWT_SECRET=your_jwt_secret_key
+   JWT_EXPIRE=30d
+   
+   # Cloudinary
    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
    CLOUDINARY_API_KEY=your_cloudinary_api_key
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   
+   # Optional: Twilio (for notifications)
+   TWILIO_ACCOUNT_SID=your_twilio_sid
+   TWILIO_AUTH_TOKEN=your_twilio_token
+   TWILIO_PHONE_NUMBER=your_twilio_phone
    ```
 
-2. **Frontend Environment**
-   Create a `.env` file in the `front` directory:
-   ```
+### Frontend Setup
+
+1. Create a `.env` file in the `front` directory:
+
+   ```env
+   # API Configuration
    REACT_APP_API_URL=http://localhost:5000
+   
+   # Optional: Google Analytics
+   REACT_APP_GA_TRACKING_ID=your_ga_tracking_id
    ```
 
-## 🚦 Running the Application
+## 🚀 Running the Application
 
-1. **Start the backend server**
+### Development Mode
+
+1. **Start Backend Server**
    ```bash
    cd back
    npm run dev
    ```
+   > Server will be running at `http://localhost:5000`
 
-2. **Start the frontend development server**
+2. **Start Frontend Development Server**
    ```bash
-   cd ../front
+   # In a new terminal
+   cd front
    npm start
    ```
+   > Application will open at `http://localhost:3000`
 
-3. **Access the application**
-   - User Interface: http://localhost:3000
-   - Admin Interface: http://localhost:3000/admin
+### Production Build
+
+1. **Build Frontend**
+   ```bash
+   cd front
+   npm run build
+   ```
+
+2. **Serve Production Build**
+   ```bash
+   # Install serve if not installed
+   npm install -g serve
+   
+   # Serve the static files
+   serve -s build
+   ```
+
+### Access Points
+
+- **User Interface**: http://localhost:3000
+- **Admin Dashboard**: http://localhost:3000/admin
+- **API Documentation**: http://localhost:5000/api-docs (if Swagger/OpenAPI is configured)
 
 ## 📸 Screenshots
 
 ### User Interface
 
-#### Home Page
-![Home Page](./Images/homepage.jpeg)
-The landing page showcases featured events and navigation to different sections.
-
-#### About Page
-![About Page](./Images/aboutpage.jpeg)
-Information about the event management system and its features.
-
-#### Events Page
-![Events Page](./Images/eventpage.jpeg)
-Browse and search through all available events.
-
-#### Gallery Page
-![Gallery Page](./Images/gallarypage.jpeg)
-Visual showcase of past events and activities.
-
-#### Contact Us Page
-![Contact Us Page](./Images/contectuspage.jpeg)
-Contact form for user inquiries and feedback.
-
-#### User Profile
-![Profile Page](./Images/profilepage.jpg)
-User profile page showing personal information and registered events.
+| Section | Screenshot | Description |
+|---------|------------|-------------|
+| **Home Page** | ![Home Page](./Images/homepage.jpeg) | Landing page with featured events and navigation |
+| **About Us** | ![About Page](./Images/aboutpage.jpeg) | Information about our platform |
+| **Events** | ![Events Page](./Images/eventpage.jpeg) | Browse and search events |
+| **Gallery** | ![Gallery Page](./Images/gallarypage.jpeg) | Visual showcase of past events |
+| **Contact** | ![Contact Us Page](./Images/contectuspage.jpeg) | Get in touch with us |
+| **Profile** | ![Profile Page](./Images/profilepage.jpg) | User profile and events |
 
 ### Admin Interface
 
-#### Admin Login
-![Admin Login](./Images/Admin-login.jpeg)
-Secure login page for administrators.
+| Section | Screenshot | Description |
+|---------|------------|-------------|
+| **Login** | ![Admin Login](./Images/Admin-login.jpeg) | Secure admin authentication |
+| **User Management** | ![User List - Admin](./Images/userlist-ADMIN%20SIDE.jpeg) | Manage all users |
+| **Event Management** | ![Event Post - Admin](./Images/eventpost-ADMIN%20SIDE.jpeg) | Create and edit events |
+| **Categories** | ![Post Category - Admin](./Images/post%20catagory-ADMIN%20SIDE.jpeg) | Manage event categories |
+| **Admin Profile** | ![Personal Details - Admin](./Images/personal%20details-ADMIN%20SIDE.jpeg) | Admin account settings |
 
-#### Admin Dashboard - User List
-![User List - Admin](./Images/userlist-ADMIN%20SIDE.jpeg)
-Manage all registered users from the admin panel.
-
-#### Event Management
-![Event Post - Admin](./Images/eventpost-ADMIN%20SIDE.jpeg)
-Create and manage events from the admin interface.
-
-#### Category Management
-![Post Category - Admin](./Images/post%20catagory-ADMIN%20SIDE.jpeg)
-Manage event categories and classifications.
-
-#### Admin Profile
-![Personal Details - Admin](./Images/personal%20details-ADMIN%20SIDE.jpeg)
-Admin profile and account settings.
-
-## 🔑 API Endpoints
+## 🔑 API Documentation
 
 ### Authentication
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - User login
-- `GET /api/auth/me` - Get current user profile
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| `POST` | `/api/auth/register` | Register new user | No |
+| `POST` | `/api/auth/login` | User login | No |
+| `GET` | `/api/auth/me` | Get current user | Yes |
 
 ### Events
-- `GET /api/events` - Get all events
-- `GET /api/events/:id` - Get single event
-- `POST /api/events` - Create new event (Admin only)
-- `PUT /api/events/:id` - Update event (Admin only)
-- `DELETE /api/events/:id` - Delete event (Admin only)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| `GET` | `/api/events` | Get all events | No |
+| `GET` | `/api/events/:id` | Get single event | No |
+| `POST` | `/api/events` | Create event | Admin |
+| `PUT` | `/api/events/:id` | Update event | Admin |
+| `DELETE` | `/api/events/:id` | Delete event | Admin |
 
 ### Users
-- `GET /api/users` - Get all users (Admin only)
-- `GET /api/users/:id` - Get user by ID
-- `PUT /api/users/:id` - Update user
-- `DELETE /api/users/:id` - Delete user (Admin only)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| `GET` | `/api/users` | Get all users | Admin |
+| `GET` | `/api/users/:id` | Get user by ID | Yes |
+| `PUT` | `/api/users/:id` | Update user | Owner/Admin |
+| `DELETE` | `/api/users/:id` | Delete user | Admin |
+
+### Example Request
+
+```javascript
+// Get all events
+fetch('/api/events')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Create new event
+fetch('/api/events', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${token}`
+  },
+  body: JSON.stringify({
+    title: 'Tech Conference',
+    description: 'Annual tech conference',
+    date: '2023-12-15',
+    location: 'Virtual'
+  })
+});
+```
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+We welcome contributions! Here's how you can help:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. 🍴 Fork the repository
+2. 🌿 Create a new branch: `git checkout -b feature/your-feature`
+3. 💾 Make your changes and commit: `git commit -m 'Add some feature'`
+4. 🚀 Push to your fork: `git push origin feature/your-feature`
+5. 🔄 Submit a pull request
+
+### 🐛 Reporting Issues
+
+Found a bug? Please [open an issue](https://github.com/neel1112/Event_Management_Project/issues) and include:
+- Steps to reproduce
+- Expected vs actual behavior
+- Screenshots if applicable
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## 👥 Team
 
-- **Neel Patel** - [GitHub](https://github.com/neel1112)
+- **Neel Patel**
+  - [GitHub](https://github.com/neel1112)
+  - [Portfolio](https://neel1112.github.io) (if available)
+  - [LinkedIn](https://linkedin.com/in/neel1112) (if available)
 
 ## 🙏 Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [React](https://reactjs.org/) - Frontend library
+- [Node.js](https://nodejs.org/) - Runtime environment
+- [Express](https://expressjs.com/) - Web framework
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Cloudinary](https://cloudinary.com/) - Image management
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ using React, Node.js, Express, and MongoDB</p>
+  <p>Made with ❤️ using the MERN stack</p>
+  <p>© 2023 Event Management System. All rights reserved.</p>
 </div>
