@@ -29,56 +29,26 @@
 
 ## ✨ <span id="key-features">Key Features</span>
 
-<div align="center" class="features-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 2rem 0;">
-
-<div class="feature-card" style="background: #ffffff; border-radius: 12px; padding: 1.5rem; width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-  <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔐</div>
-  <h3 style="color: #2d3748; margin: 0 0 1rem 0;">User Authentication</h3>
-  <p style="color: #4a5568; line-height: 1.6;">Secure login and registration with JWT and password hashing. Role-based access control for different user types.</p>
-  <div style="margin-top: 1rem; font-size: 0.9em; color: #718096;">
-    <span style="display: inline-block; background: #ebf8ff; color: #2b6cb0; padding: 0.2rem 0.8rem; border-radius: 9999px; margin: 0.2rem;">JWT</span>
-    <span style="display: inline-block; background: #ebf8ff; color: #2b6cb0; padding: 0.2rem 0.8rem; border-radius: 9999px; margin: 0.2rem;">Bcrypt</span>
-  </div>
-</div>
-
-<div class="feature-card" style="background: #ffffff; border-radius: 12px; padding: 1.5rem; width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-  <div style="font-size: 2.5rem; margin-bottom: 1rem;">📅</div>
-  <h3 style="color: #2d3748; margin: 0 0 1rem 0;">Event Management</h3>
-  <p style="color: #4a5568; line-height: 1.6;">Full CRUD operations with image uploads. Rich text editing for event descriptions and detailed filtering options.</p>
-  <div style="margin-top: 1rem; font-size: 0.9em; color: #718096;">
-    <span style="display: inline-block; background: #fff5f5; color: #c53030; padding: 0.2rem 0.8rem; border-radius: 9999px; margin: 0.2rem;">MongoDB</span>
-    <span style="display: inline-block; background: #fff5f5; color: #c53030; padding: 0.2rem 0.8rem; border-radius: 9999px; margin: 0.2rem;">Mongoose</span>
-  </div>
-</div>
-
-<div class="feature-card" style="background: #ffffff; border-radius: 12px; padding: 1.5rem; width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-  <div style="font-size: 2.5rem; margin-bottom: 1rem;">👑</div>
-  <h3 style="color: #2d3748; margin: 0 0 1rem 0;">Admin Dashboard</h3>
-  <p style="color: #4a5568; line-height: 1.6;">Comprehensive control panel for managing users, events, categories, and system analytics.</p>
-  <div style="margin-top: 1rem; font-size: 0.9em; color: #718096;">
-    <span style="display: inline-block; background: #f0fff4; color: #2f855a; padding: 0.2rem 0.8rem; border-radius: 9999px; margin: 0.2rem;">React</span>
-    <span style="display: inline-block; background: #f0fff4; color: #2f855a; padding: 0.2rem 0.8rem; border-radius: 9999px; margin: 0.2rem;">Redux</span>
-  </div>
-</div>
-
-<div class="feature-card" style="background: #ffffff; border-radius: 12px; padding: 1.5rem; width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-  <div style="font-size: 2.5rem; margin-bottom: 1rem;">📱</div>
-  <h3 style="color: #2d3748; margin: 0 0 1rem 0;">Responsive Design</h3>
-  <p style="color: #4a5568; line-height: 1.6;">Fully responsive layout that works seamlessly on all devices from mobile to desktop.</p>
-  <div style="margin-top: 1rem; font-size: 0.9em; color: #718096;">
-    <span style="display: inline-block; background: #faf5ff; color: #6b46c1; padding: 0.2rem 0.8rem; border-radius: 9999px; margin: 0.2rem;">Tailwind CSS</span>
-    <span style="display: inline-block; background: #faf5ff; color: #6b46c1; padding: 0.2rem 0.8rem; border-radius: 9999px; margin: 0.2rem;">Mobile-First</span>
-  </div>
-</div>
-
-</div>
-
-<style>
-  .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  }
-</style>
+<div align="center">
+  <table>
+    <tr>
+      <td width="33.3%" align="center">
+        <h4>🔐 User Authentication</h4>
+        <p>Secure login and registration with JWT and password hashing</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>📅 Event Management</h4>
+        <p>Complete CRUD operations with image uploads</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>👑 Admin Dashboard</h4>
+        <p>Comprehensive panel for users, events, and categories</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="33.3%" align="center">
+        <h4>📱 Responsive Design</h4>
+        <p>Seamless experience across all devices</p>
       </td>
       <td width="33.3%" align="center">
         <h4>🖼️ Media Management</h4>
