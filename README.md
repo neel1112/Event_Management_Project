@@ -63,98 +63,23 @@
 </div>
 
 ---
+### Frontend, Backend, and Development Tools
 
-## 🛠 Technology Stack
 <div align="center">
-  <table style="display: inline-block; vertical-align: top;">
+  <table>
     <tr>
-      <th colspan="2">Frontend</th>
-    </tr>
-    <tr>
-      <td>Technology</td>
-      <td>Purpose</td>
-    </tr>
-    <tr>
-      <td>![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)</td>
-      <td>Frontend Library</td>
-    </tr>
-    <tr>
-      <td>![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)</td>
-      <td>Client-side Routing</td>
-    </tr>
-    <tr>
-      <td>![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)</td>
-      <td>Utility-first CSS</td>
-    </tr>
-    <tr>
-      <td>![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)</td>
-      <td>HTTP Client</td>
-    </tr>
-    <tr>
-      <td>![React Icons](https://img.shields.io/badge/React%20Icons-161D2D?logo=react&logoColor=white)</td>
-      <td>Icon Library</td>
-    </tr>
-    <tr>
-      <td>![React Toastify](https://img.shields.io/badge/Toastify-FFE484?logo=react&logoColor=black)</td>
-      <td>Notifications</td>
-    </tr>
-  </table>
-  <table style="display: inline-block; vertical-align: top;">
-    <tr>
-      <th colspan="2">Backend</th>
-    </tr>
-    <tr>
-      <td>Technology</td>
-      <td>Purpose</td>
-    </tr>
-    <tr>
-      <td>![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)</td>
-      <td>Runtime Environment</td>
-    </tr>
-    <tr>
-      <td>![Express](https://img.shields.io/badge/Express.js-404D59?logo=express)</td>
-      <td>Web Framework</td>
-    </tr>
-    <tr>
-      <td>![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)</td>
-      <td>Database</td>
-    </tr>
-    <tr>
-      <td>![JWT](https://img.shields.io/badge/JWT-000000?logo=JSON%20web%20tokens)</td>
-      <td>Authentication</td>
-    </tr>
-    <tr>
-      <td>![Bcrypt](https://img.shields.io/badge/Bcrypt-525252?logo=bcrypt)</td>
-      <td>Password Hashing</td>
-    </tr>
-    <tr>
-      <td>![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?logo=cloudinary)</td>
-      <td>Media Management</td>
-    </tr>
-  </table>
-  <table style="display: inline-block; vertical-align: top;">
-    <tr>
-      <th colspan="2">Development Tools</th>
-    </tr>
-    <tr>
-      <td>Tool</td>
-      <td>Purpose</td>
-    </tr>
-    <tr>
-      <td>![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)</td>
-      <td>Version Control</td>
-    </tr>
-    <tr>
-      <td>![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)</td>
-      <td>API Testing</td>
-    </tr>
-    <tr>
-      <td>![VS Code](https://img.shields.io/badge/VS_Code-0078D4?logo=visual%20studio%20code&logoColor=white)</td>
-      <td>Code Editor</td>
-    </tr>
-    <tr>
-      <td>![NPM](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)</td>
-      <td>Package Manager</td>
+      <td width="33.3%" align="center">
+        <h4>Frontend</h4>
+        <p>React, React Router, Tailwind CSS, Axios, React Icons, React Toastify</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>Backend</h4>
+        <p>Node.js, Express, MongoDB, JWT, Bcrypt, Cloudinary</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>Development Tools</h4>
+        <p>Git, Postman, VS Code, NPM</p>
+      </td>
     </tr>
   </table>
 </div>
