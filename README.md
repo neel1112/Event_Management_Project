@@ -245,101 +245,22 @@ Before you begin, ensure you have installed the following:
 
 ### Access Points
 
-<div align="center">
-  <table>
-    <tr>
-      <th>Service</th>
-      <th>URL</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>🌐 User Interface</td>
-      <td><a href="http://localhost:3000">http://localhost:3000</a></td>
-      <td>Main application interface</td>
-    </tr>
-    <tr>
-      <td>👑 Admin Dashboard</td>
-      <td><a href="http://localhost:3000/admin">http://localhost:3000/admin</a></td>
-      <td>Administrative control panel</td>
-    </tr>
-    <tr>
-      <td>📚 API Documentation</td>
-      <td><a href="http://localhost:5000/api-docs">http://localhost:5000/api-docs</a></td>
-      <td>Interactive API documentation (if Swagger/OpenAPI is configured)</td>
-    </tr>
-  </table>
-</div>
+- **User Interface**: http://localhost:3000
+- **Admin Dashboard**: http://localhost:3000/admin
+- **API Documentation**: http://localhost:5000/api-docs (if Swagger/OpenAPI is configured)
 
-## 📸 <span id="screenshots">Screenshots</span>
+## 📸 Screenshots
 
-<div align="center">
-  <h3>User Interface</h3>
-  <table>
-    <tr>
-      <td align="center">
-        <img src="./Images/homepage.jpeg" alt="Home Page" width="300"/>
-        <p>Home Page</p>
-      </td>
-      <td align="center">
-        <img src="./Images/eventpage.jpeg" alt="Events" width="300"/>
-        <p>Events</p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="./Images/profilepage.jpg" alt="User Profile" width="300"/>
-        <p>User Profile</p>
-      </td>
-      <td align="center">
-        <img src="./Images/gallarypage.jpeg" alt="Gallery" width="300"/>
-        <p>Gallery</p>
-      </td>
-    </tr>
-  </table>
-</div>
+### User Interface
 
 | Section | Screenshot | Description |
 |---------|------------|-------------|
 | **Home Page** | ![Home Page](./Images/homepage.jpeg) | Landing page with featured events and navigation |
-## 🤝 <span id="contributing">Contributing</span>
-
-We welcome contributions from the community! Here's how you can help:
-
-1. **Report Bugs**
-   - Submit bug reports on our [GitHub Issues](https://github.com/neel1112/Event_Management_Project/issues)
-
-2. **Feature Requests**
-   - Suggest new features or improvements
-
-3. **Pull Requests**
-   - Fork the repository
-   - Create a feature branch (`git checkout -b feature/AmazingFeature`)
-   - Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-   - Push to the branch (`git push origin feature/AmazingFeature`)
-   - Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [React](https://reactjs.org/) - Frontend library
-- [Node.js](https://nodejs.org/) - JavaScript runtime
-- [MongoDB](https://www.mongodb.com/) - NoSQL database
-- [Express](https://expressjs.com/) - Web framework
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-
----
-
-<div align="center">
-  <p>Made with ❤️ by Your Name</p>
-  <p>
-    <a href="https://github.com/neel1112" target="_blank">GitHub</a> • 
-    <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> • 
-    <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
-  </p>
-</div>
+| **About Us** | ![About Page](./Images/aboutpage.jpeg) | Information about our platform |
+| **Events** | ![Events Page](./Images/eventpage.jpeg) | Browse and search events |
+| **Gallery** | ![Gallery Page](./Images/gallarypage.jpeg) | Visual showcase of past events |
+| **Contact** | ![Contact Us Page](./Images/contectuspage.jpeg) | Get in touch with us |
+| **Profile** | ![Profile Page](./Images/profilepage.jpg) | User profile and events |
 
 ### Admin Interface
 
